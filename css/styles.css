@@ -1,4 +1,11 @@
 
+
+
+
+
+
+
+
 body {
     background-color: rgb(100, 99, 97);
     color: rgb(238, 230, 234);
@@ -188,8 +195,11 @@ footer {
 
     font-size: 16px;
     padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-align: left;
     color: rgb(207, 194, 194);
+    
 }
 
 .footer__textLink {
@@ -203,6 +213,18 @@ footer {
     background-color: transparent;
 }
 
+footer {
+
+
+    margin-bottom: 0px;
+    position: relative; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:[footer-height] ;
+    margin-top: 26vh;
+    
+}
+
+
 
 
 @media only screen and (max-width: 750px) {
@@ -212,24 +234,27 @@ footer {
         font-size: 80px
     }
 
-    .app__cardContainer {
- padding: 20px;
+ .app__cardContainer {
+
  width:min-content;
- display: flexbox;
+
  margin: 0 auto;
+
    
     }
 
+    footer.footer  {
+
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .footer__text {
+        width: fit-content;
+        margin: 0 auto;
+    }
 
 }
 
-  footer {
 
-    flex-direction: column;
-    margin-bottom: 0px;
-    position: relative; 
-    left: 0 ; right: 0; bottom: 0; 
-    height:[footer-height] ;
-    margin-top: 26vh;
-    
-}
